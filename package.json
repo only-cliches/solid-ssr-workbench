@@ -9,7 +9,7 @@
     "url": "https://github.com/ryansolid/solid/solid-ssr"
   },
   "scripts": {
-    "build:asnc-esbuild": "node async-esbuild/esbuild.js",
+    "build:async-esbuild": "node async-esbuild/esbuild.js",
     "start:async-esbuild": "node async-esbuild/lib/index.js",
     "build:async": "rollup -c async/rollup.config.js",
     "start:async": "node async/lib/index.js",
